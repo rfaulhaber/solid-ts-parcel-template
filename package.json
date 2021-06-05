@@ -1,0 +1,26 @@
+{
+  "name": "solid-ts-template",
+  "version": "0.1.0",
+  "description": "Barebones Solid app using TypeScript and Parcel 2.",
+  "repository": "https://github.com/rfaulhaber/solid-ts-parcel-template",
+  "author": "Ryan Faulhaber <ryf@sent.as>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel serve ./public/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@parcel/babel-plugin-transform-runtime": "next",
+    "@parcel/babel-preset-env": "next",
+    "@parcel/validator-typescript": "next",
+    "babel-preset-solid": "^0.26.5",
+    "parcel": "next",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "solid-js": "^0.26.5"
+  },
+  "browserslist": ["Chrome 74", "Firefox 63", "Safari 11", "Edge 17", "Node 10"]
+}
