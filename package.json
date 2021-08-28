@@ -1,26 +1,26 @@
 {
-  "name": "solid-ts-template",
+  "name": "postwave-web",
   "version": "0.1.0",
-  "description": "Barebones Solid app using TypeScript and Parcel 2.",
-  "repository": "https://github.com/rfaulhaber/solid-ts-parcel-template",
+  "description": "First-class web application for Postwave.",
+  "repository": "https://github.com/rfaulhaber/postwave",
   "author": "Ryan Faulhaber <ryf@sent.as>",
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "private": true,
   "scripts": {
     "start": "parcel serve ./public/index.html"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.3",
-    "@babel/preset-env": "^7.14.4",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "@parcel/babel-plugin-transform-runtime": "next",
     "@parcel/babel-preset-env": "next",
     "@parcel/validator-typescript": "next",
-    "babel-preset-solid": "^0.26.5",
+    "babel-preset-solid": "^1.1.1",
     "parcel": "next",
-    "typescript": "^4.3.2"
+    "typescript": "^4.4.2"
   },
   "dependencies": {
-    "solid-js": "^0.26.5"
+    "solid-js": "^1.1.1"
   },
   "browserslist": ["Chrome 74", "Firefox 63", "Safari 11", "Edge 17", "Node 10"]
 }
